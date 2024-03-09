@@ -49,9 +49,9 @@
     </div>
     <div class="mt-16">
         <div class="border bg-blue-500 text-xl p-8 text-left m-8">
-            <h2>Smartphones</h2><br>
-            <p>Get affordable and quality phones and tablets. Phones with fast processing speed and reliable at any moment.</p>
-            <button>
+            <h2 class="font-bold">Smartphones</h2><br>
+            <p>Stay connected in style with our sleek and powerful smartphones. From stunning displays to lightning-fast processors, our devices redefine the mobile experience.</p>
+            <button class="bg-red-500">
                 <router-link to="/smartphones">
                     <span>Shop Now
                         <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -61,29 +61,69 @@
                 </router-link>
             </button>
         </div>
-    </div>
-    <div class="border bg-pink-600 text-white  flex-col flex">
-    <footer class="grid">
-        <div class="flex justify-center">
-            <div class="flex flex-col mt-3">
-                <h1 class="font-bold mb-4">Quick Link</h1>
-                <router-link to="/home">Home</router-link><br>                
-                <router-link to="/about-us">About Us</router-link><br>
-                <router-link to="/contact-us">Contact Us</router-link><br>
-                <router-link to="/offers">Offers</router-link>
+        <div class="flex flex-col">
+            <div class="flex flex-col border border-black text-xl p-8 m-8">
+                <h2 class="font-bold">Computers and Laptops</h2>
+                <p>Unleash your productivity with our range of cutting-edge laptops and computers.</p>
+                <p>Whether you're a student, professional, or creative, find the perfect balance of performance and portability.</p>
             </div>
-            <div class="flex flex-col ml-16 pr-10">
-                <h1 class="font-bold mb-4 mt-3">All departments</h1>
-                <router-link to="/smartphones">Smartphones</router-link><br>
-                <router-link to="/accessories">Accessories</router-link><br>
-                <router-link to="/audio-headphones">Audio and Headphones</router-link><br>
-                <router-link to="/cameras">Cameras</router-link><br>
-                <router-link to="/gaming">Gaming</router-link><br>
-                <router-link to="/computer-laptops">Computers and Laptops</router-link>
+            <div class="border border-black flex flex-col text-xl p-8 m-8">
+                <h1 class="font-bold">Gaming Console</h1>
+                <p>Embark on epic adventures and multiplayer showdowns with our cutting-edge gaming consoles.</p>
+                <p>From high-octane action to immersive storytelling, experience gaming like never before.</p>
             </div>
         </div>
-    </footer>
-</div>
+        <div class="flex flex-col">
+            <div class="flex flex-col border border-black text-xl p-8 m-8">
+                <h2 class="font-bold">Accesories</h2>
+                <p>Complete your tech arsenal with our curated collection of accessories. From sleek phone cases to powerful chargers, find the perfect complement to enhance and protect your devices.</p>
+                <p>Elevate your style and functionality with our range of must-have accessories.</p>
+
+            </div>
+            <div class="border border-black flex flex-col text-xl p-8 m-8">
+                <h1 class="font-bold">Audio and Headphones</h1>
+                <p>Dive into a world of sound with our premium audio and headphones collection. Immerse yourself in crystal-clear audio, whether you're enjoying your favorite music, gaming, or taking calls. </p>
+                <p>From wireless earbuds to over-ear headphones, experience every beat and note with unparalleled clarity and comfort.</p>
+            </div>
+        </div>
+        <div class="border bg-blue-500 text-xl p-8 text-left m-8">
+            <h2 class="font-bold">Cameras</h2><br>
+            <p>Capture life's moments in stunning detail with our diverse range of cameras.</p>
+            <p> From compact point-and-shoots to professional-grade DSLRs, our collection offers something for every photographer. Unleash your creativity, preserve memories, and document adventures with our high-quality cameras designed to elevate your photography game.</p>
+            <button class="bg-red-500">
+                <router-link to="/smartphones">
+                    <span>Shop Now
+                        <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </span>
+                </router-link>
+            </button>
+        </div>
+
+    </div>
+    <div class="border bg-pink-600 text-white  flex-col flex">
+        <footer class="grid">
+            <div class="flex justify-center">
+                <div class="flex flex-col mt-3">
+                    <h1 class="font-bold mb-4">Quick Link</h1>
+                    <router-link to="/home">Home</router-link><br>                
+                    <router-link to="/about-us">About Us</router-link><br>
+                    <router-link to="/contact-us">Contact Us</router-link><br>
+                    <router-link to="/offers">Offers</router-link>
+                </div>
+                <div class="flex flex-col ml-16 pr-10">
+                    <h1 class="font-bold mb-4 mt-3">All departments</h1>
+                    <router-link to="/smartphones">Smartphones</router-link><br>
+                    <router-link to="/accessories">Accessories</router-link><br>
+                    <router-link to="/audio-headphones">Audio and Headphones</router-link><br>
+                    <router-link to="/cameras">Cameras</router-link><br>
+                    <router-link to="/gaming">Gaming</router-link><br>
+                    <router-link to="/computer-laptops">Computers and Laptops</router-link>
+                </div>
+            </div>
+        </footer>
+    </div>
 </template>
 
 <script>
