@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-        <!-- <img src="./assets/logo.png" /> -->
+        <!-- <img src="/assets/camera.jpg" /> -->
         </div>
        <nav class="-mt-10">
             <router-link class="pl-6" to="/home">Home</router-link>
@@ -47,24 +47,43 @@
             </router-link>
         </div>
     </div>
-    <div>
+    <div class="mt-16">
         <div class="border bg-blue-500 text-xl p-8 text-left m-8">
             <h2>Smartphones</h2><br>
             <p>Get affordable and quality phones and tablets. Phones with fast processing speed and reliable at any moment.</p>
-            <router-link to="/smartphones">
-                <span>Shop Now
-                    <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </span>
-            </router-link>
+            <button>
+                <router-link to="/smartphones">
+                    <span>Shop Now
+                        <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </span>
+                </router-link>
+            </button>
         </div>
     </div>
-    <div>
-        <footer>
-
-        </footer>
-    </div>
+    <div class="border bg-pink-600 text-white  flex-col flex">
+    <footer class="grid">
+        <div class="flex justify-center">
+            <div class="flex flex-col mt-3">
+                <h1 class="font-bold mb-4">Quick Link</h1>
+                <router-link to="/home">Home</router-link><br>                
+                <router-link to="/about-us">About Us</router-link><br>
+                <router-link to="/contact-us">Contact Us</router-link><br>
+                <router-link to="/offers">Offers</router-link>
+            </div>
+            <div class="flex flex-col ml-16 pr-10">
+                <h1 class="font-bold mb-4 mt-3">All departments</h1>
+                <router-link to="/smartphones">Smartphones</router-link><br>
+                <router-link to="/accessories">Accessories</router-link><br>
+                <router-link to="/audio-headphones">Audio and Headphones</router-link><br>
+                <router-link to="/cameras">Cameras</router-link><br>
+                <router-link to="/gaming">Gaming</router-link><br>
+                <router-link to="/computer-laptops">Computers and Laptops</router-link>
+            </div>
+        </div>
+    </footer>
+</div>
 </template>
 
 <script>
