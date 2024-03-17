@@ -1,9 +1,9 @@
-<template>
+ <template>
     <div>
         <div>
-        <!-- <img src="/assets/camera.jpg" /> -->
+        <img src="@/assets/smartphones.jpg" />
         </div>
-       <nav class="-mt-10">
+       <nav class="mt-12 mb-8 text-center font-bold">
             <router-link class="pl-6" to="/home">Home</router-link>
             <router-link class="pl-6" to="/about">About</router-link>
             <router-link class="pl-6" to="/shop">Shop</router-link>
@@ -48,8 +48,7 @@
         </div>
     </div>
     <div class="mt-16">
-        <div class="border text-xl p-8 text-left m-8"
-        :style="{'background-image': 'url(/src/assets/elegant-smartphone-composition_23-2149437106.webp)'}">
+        <div class="border text-xl p-8 text-left m-8 bg-cover bg-center bg-url('@/assets/smartphones.jpg')" style="background-image: url('@/assets/smartphones.jpg');">
             <h2 class="font-bold">Smartphones</h2><br>
             <p class="mb-6">Stay connected in style with our sleek and powerful smartphones. From stunning displays to lightning-fast processors, our devices redefine the mobile experience.</p>
             <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/smartphones">Shop Now</a>
@@ -87,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="border bg-blue-500 text-xl p-8 text-left m-8">
+        <div class="border text-xl p-8 text-left m-8">
             <h2 class="font-bold">Cameras</h2><br>
             <p>Capture life's moments in stunning detail with our diverse range of cameras.</p>
             <p class="mb-8"> From compact point-and-shoots to professional-grade DSLRs, our collection offers something for every photographer. Unleash your creativity, preserve memories, and document adventures with our high-quality cameras designed to elevate your photography game.</p>
@@ -95,12 +94,12 @@
         </div>
 
     </div>
-    <div class="border bg-pink-600 text-white  flex-col flex">
+    <div class="border bg-red-800	 text-white  flex-col flex">
         <footer class="grid">
             <div class="flex justify-center">
                 <div class="flex flex-col mt-3">
                     <h1 class="font-bold mb-4">Quick Link</h1>
-                    <router-link to="/home">Home</router-link><br>                
+                    <router-link to="/">Home</router-link><br>                
                     <router-link to="/about-us">About Us</router-link><br>
                     <router-link to="/contact-us">Contact Us</router-link><br>
                     <router-link to="/offers">Offers</router-link>
@@ -120,5 +119,4 @@
 </template>
 
 <script>
-
-</script>
+</script> 
