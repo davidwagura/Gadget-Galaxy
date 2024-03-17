@@ -47,21 +47,21 @@
             </router-link>
         </div>
     </div>
-    <div class="mt-16">
-        <div class="border text-xl p-8 text-left m-8 bg-cover bg-center" id="phone">
+    <div class="mt-16 text-gray-600">
+        <div class="border p-8 text-left m-8 bg-cover bg-center" id="phone">
             <h2 class="font-bold">Smartphones</h2><br>
             <p class="mb-6">Stay connected in style with our sleek and powerful smartphones. From stunning displays to lightning-fast processors, our devices redefine the mobile experience.</p>
             <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/smartphones">Shop Now</a>
         </div>
         <div class="flex flex-col">
             <div class="inline-flex">
-                <div class="flex flex-col  border border-black text-xl p-8 m-8" id="laptop">
+                <div class="flex flex-col  border border-black p-8 m-8" id="laptop">
                     <h2 class="font-bold mb-4">Laptops and Computers</h2>
                     <p>Empower your productivity and unleash your creativity with our cutting-edge laptops and computers. From sleek ultrabooks to powerhouse gaming rigs, our collection offers the perfect blend of performance and portability.</p>
                     <p>Whether you're crunching numbers, designing masterpieces, or diving into immersive gaming worlds, our laptops and computers are your gateway to limitless possibilities.</p>
-                    <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/laptops-phones">Shop Now</a>
+                    <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/laptops-phones">Shop Now</a>
                 </div>
-                <div class="flex flex-col border border-black text-xl p-8 m-8" id="games">
+                <div class="flex flex-col border border-black p-8 m-8" id="games">
                     <h1 class="font-bold mb-4">Gaming Console</h1>
                     <p>Experience gaming nirvana with our selection of gaming consoles. From epic adventures to thrilling multiplayer battles, immerse yourself in a world of entertainment like never before.</p>
                     <p>Choose from the latest consoles and accessories to elevate your gaming experience and become the ultimate champion of virtual realms.</p>
@@ -71,13 +71,13 @@
         </div>
         <div class="flex flex-col">
             <div class="inline-flex">
-                <div class="flex flex-col border border-black text-xl p-8 m-8" id="accessories">
+                <div class="flex flex-col border border-black p-8 m-8" id="accessories">
                     <h2 class="font-bold mb-4">Accessories</h2>
                     <p>Complete your tech arsenal with our curated collection of accessories. From sleek phone cases to powerful chargers, find the perfect complement to enhance and protect your devices.</p>
                     <p>Elevate your style and functionality with our range of must-have accessories.</p>
                     <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/accessories">Shop Now</a>
                 </div>
-                <div class="flex flex-col border border-black text-xl p-8 m-8 ml-auto" id="audio">
+                <div class="flex flex-col border border-black p-8 m-8 ml-auto" id="audio">
                     <h1 class="font-bold mb-4">Audio and Headphones</h1>
                     <p>Dive into a world of sound with our premium audio and headphones collection. Immerse yourself in crystal-clear audio, whether you're enjoying your favorite music, gaming, or taking calls. </p>
                     <p>From wireless earbuds to over-ear headphones, experience every beat and note with unparalleled clarity and comfort.</p>
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="border text-xl p-8 text-left m-8" id="camera">
+        <div class="border p-8 text-left m-8" id="camera">
             <h2 class="font-bold">Cameras</h2><br>
             <p>Capture life's moments in stunning detail with our diverse range of cameras.</p>
             <p class="mb-8"> From compact point-and-shoots to professional-grade DSLRs, our collection offers something for every photographer. Unleash your creativity, preserve memories, and document adventures with our high-quality cameras designed to elevate your photography game.</p>
@@ -128,7 +128,7 @@
     background-image: url('/src/assets/laptop.jpg');
 }
 #games{
-
+    background-image: url('/src/assets/ps4.jpg');
 }
 #accessories {
     background-image: url('/src/assets/accessories.jpg');
@@ -138,6 +138,7 @@
     background-image: url('/src/assets/cameras.jpg');
 }
 #audio {
+    background-image: url('/src/assets/Headphone.jpg');
 
 }
 </style>

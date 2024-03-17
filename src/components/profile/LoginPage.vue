@@ -41,7 +41,10 @@ export default {
     methods: {
         loginForm() {
             axios.get('http://127.0.0.1:8000/api/student', this.data)
-
+            .then(response => {
+                console.log(response)
+            });
+            this.$router.push('/')
         }
     }
 }
