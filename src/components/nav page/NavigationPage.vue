@@ -4,7 +4,7 @@
         <!-- <img src="@/assets/smartphones.jpg" /> -->
         </div>
        <nav class="mt-12 mb-8 text-center font-bold">
-            <router-link class="pl-6" to="/home">Home</router-link>
+            <router-link class="pl-6" to="/">Home</router-link>
             <router-link class="pl-6" to="/about">About</router-link>
             <router-link class="pl-6" to="/shop">Shop</router-link>
             <router-link class="pl-6" to="/contact-us">Contact Us</router-link>
@@ -47,11 +47,11 @@
             </router-link>
         </div>
     </div>
-    <div class="mt-16 text-gray-600">
+    <div class="mt-16 text-white">
         <div class="border p-8 text-left m-8 bg-cover bg-center" id="phone">
             <h2 class="font-bold">Smartphones</h2><br>
             <p class="mb-6">Stay connected in style with our sleek and powerful smartphones. From stunning displays to lightning-fast processors, our devices redefine the mobile experience.</p>
-            <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/smartphones">Shop Now</a>
+            <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/smartphones">Shop Now</a>
         </div>
         <div class="flex flex-col">
             <div class="inline-flex">
@@ -65,7 +65,7 @@
                     <h1 class="font-bold mb-4">Gaming Console</h1>
                     <p>Experience gaming nirvana with our selection of gaming consoles. From epic adventures to thrilling multiplayer battles, immerse yourself in a world of entertainment like never before.</p>
                     <p>Choose from the latest consoles and accessories to elevate your gaming experience and become the ultimate champion of virtual realms.</p>
-                    <a class="bg-gray-500 border rounded w-32 mt-3 p-4" href="/gaming-console">Shop Now</a>
+                    <a class="bg-blue-500 border rounded w-32 mt-3 p-4" href="/gaming-console">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -75,13 +75,13 @@
                     <h2 class="font-bold mb-4">Accessories</h2>
                     <p>Complete your tech arsenal with our curated collection of accessories. From sleek phone cases to powerful chargers, find the perfect complement to enhance and protect your devices.</p>
                     <p>Elevate your style and functionality with our range of must-have accessories.</p>
-                    <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/accessories">Shop Now</a>
+                    <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/accessories">Shop Now</a>
                 </div>
                 <div class="flex flex-col border border-black p-8 m-8 ml-auto" id="audio">
                     <h1 class="font-bold mb-4">Audio and Headphones</h1>
                     <p>Dive into a world of sound with our premium audio and headphones collection. Immerse yourself in crystal-clear audio, whether you're enjoying your favorite music, gaming, or taking calls. </p>
                     <p>From wireless earbuds to over-ear headphones, experience every beat and note with unparalleled clarity and comfort.</p>
-                    <a class="bg-gray-500 border rounded w-1/4 mt-3 p-4" href="/audio-headphones">Shop Now</a>
+                    <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/audio-headphones">Shop Now</a>
 
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <h2 class="font-bold">Cameras</h2><br>
             <p>Capture life's moments in stunning detail with our diverse range of cameras.</p>
             <p class="mb-8"> From compact point-and-shoots to professional-grade DSLRs, our collection offers something for every photographer. Unleash your creativity, preserve memories, and document adventures with our high-quality cameras designed to elevate your photography game.</p>
-            <a class="bg-gray-500 border rounded w-1/4  p-4" href="/cameras">Shop Now</a>
+            <a class="bg-blue-500 border rounded w-1/4  p-4" href="/cameras">Shop Now</a>
         </div>
 
     </div>
@@ -122,23 +122,26 @@
 </script> 
 <style>
 #phone {
-    background-image: url(/src/assets/smartphones.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(124, 114, 114, 0.5)), url('/src/assets/smartphones.jpg');
 }
 #laptop {
-    background-image: url('/src/assets/laptop.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/laptop.jpg');
 }
 #games{
-    background-image: url('/src/assets/ps4.jpg');
+    background-image: linear-gradient(rgba(89, 82, 82, 0.5), rgba(91, 85, 85, 0.5)), url('/src/assets/ps4.jpg');
 }
 #accessories {
-    background-image: url('/src/assets/accessories.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/accessories.jpg');
 
 }
 #camera {
-    background-image: url('/src/assets/cameras.jpg');
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/cameras.jpg');
 }
 #audio {
-    background-image: url('/src/assets/Headphone.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/headphones1');
 
 }
+/* body {
+    background-image: url('/src/assets/background');
+} */
 </style>
