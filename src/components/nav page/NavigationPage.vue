@@ -7,7 +7,7 @@
             <router-link class="pl-6" to="/">Home</router-link>
             <router-link class="pl-6" to="/about">About</router-link>
             <router-link class="pl-6" to="/shop">Shop</router-link>
-            <router-link class="pl-6" to="/contact-us">Contact Us</router-link>
+            <router-link class="pl-6" to="/contact">Contact Us</router-link>
        </nav> 
        <div class="justify-end flex -mt-16 pr-4 space-x-5">
             <router-link class="hover:text-white-200" to="/wishlist">
@@ -100,8 +100,8 @@
                 <div class="flex flex-col mt-3">
                     <h1 class="font-bold mb-4">Quick Link</h1>
                     <router-link to="/">Home</router-link><br>                
-                    <router-link to="/about-us">About Us</router-link><br>
-                    <router-link to="/contact-us">Contact Us</router-link><br>
+                    <router-link to="/about">About Us</router-link><br>
+                    <router-link to="/contact">Contact Us</router-link><br>
                     <router-link to="/offers">Offers</router-link>
                 </div>
                 <div class="flex flex-col ml-16 pr-10">
