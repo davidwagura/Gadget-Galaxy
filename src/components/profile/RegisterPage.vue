@@ -24,6 +24,9 @@
                     Register
                 </button>
             </div>
+            <div class="mt-4">
+                <p>Already have an account? <a class="text-blue-700" href="/login">Login</a></p>
+            </div>
         </form>
         <div v-if="successMessage" class="alert alert-success text-center  text-green-400" role="alert">
             {{ successMessage }}
