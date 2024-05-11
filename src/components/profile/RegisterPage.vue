@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center h-screen">
+    <div class="flex justify-center items-center bg-gray-200 h-screen">
         <form @submit.prevent ="submitForm()" class="bg-white shadow-md border rounded px-8 pt-6 pb-8 mb-4 w-1/3">
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
