@@ -172,7 +172,7 @@
 
     </div>
 
-    <div class="border bg-red-800 text-white  flex-col flex">
+    <div class="border bg-red-800	 text-white  flex-col flex">
 
         <footer class="grid">
 
@@ -238,7 +238,9 @@
 
 }
 #camera {
-    background-image:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/cameras.jpg');
+    background-image:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/camera.jpg');
+
+    background-repeat: no-repeat;
 }
 #audio {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/assets/headphones1');
