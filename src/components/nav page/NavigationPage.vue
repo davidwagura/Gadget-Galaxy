@@ -83,7 +83,7 @@
 
     <div class="mt-16 text-white">
 
-        <div class="p-8 text-left m-8 bg-cover bg-center" id="phone">
+        <div class="rounded-lg p-8 text-left m-8 bg-cover bg-center" id="phone">
 
             <h2 class="font-bold">Smartphones</h2><br>
 
@@ -97,7 +97,7 @@
 
             <div class="inline-flex">
 
-                <div class="flex flex-col p-8 m-8" id="laptop">
+                <div class="flex flex-col p-8 m-8 rounded-lg" id="laptop">
 
                     <h2 class="font-bold mb-4">Laptops and Computers</h2>
 
@@ -109,7 +109,7 @@
 
                 </div>
 
-                <div class="flex flex-col p-8 m-8" id="games">
+                <div class="flex rounded-lg flex-col p-8 m-8" id="games">
 
                     <h1 class="font-bold mb-4">Gaming Console</h1>
 
@@ -130,7 +130,7 @@
             <div class="inline-flex">
 
 
-                <div class="flex flex-col p-8 m-8" id="accessories">
+                <div class="flex flex-col rounded-lg p-8 m-8" id="accessories">
 
                     <h2 class="font-bold mb-4">Accessories</h2>
 
@@ -142,7 +142,7 @@
 
                 </div>
 
-                <div class="flex flex-col p-8 m-8 ml-auto" id="audio">
+                <div class="flex flex-col rounded-lg p-8 m-8 ml-auto" id="audio">
 
                     <h1 class="font-bold mb-4">Audio and Headphones</h1>
 
@@ -158,7 +158,7 @@
 
         </div>
 
-        <div class="p-8 text-left m-8" id="camera">
+        <div class="p-8 text-left rounded-lg m-8" id="camera">
 
             <h2 class="font-bold">Cameras</h2><br>
 
@@ -172,7 +172,7 @@
 
     </div>
 
-    <div class="border bg-red-800	 text-white  flex-col flex">
+    <div class="border bg-red-800 text-white  flex-col flex">
 
         <footer class="grid">
 
