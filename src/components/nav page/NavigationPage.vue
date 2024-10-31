@@ -3,7 +3,6 @@
 
         <div>
 
-        <!-- <img src="@/assets/smartphones.jpg" /> -->
         </div>
 
        <nav class="mt-12 mb-8 text-center font-bold">
