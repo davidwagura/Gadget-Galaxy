@@ -1,10 +1,6 @@
  <template>
     <div>
 
-        <div>
-
-        </div>
-
        <nav class="mt-12 mb-8 text-center font-bold">
         
             <router-link class="pl-6" to="/">Home</router-link>
