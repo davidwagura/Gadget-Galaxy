@@ -1,7 +1,6 @@
 <template>
     <div class="flex justify-center items-center bg-gray-200 h-screen">
-
-        <form @submit.prevent ="loginForm()" class="bg-white shadow-md rounded border px-8 pt-6 pb-8 mb-4 w-1/3">
+   <form @submit.prevent ="loginForm()" class="bg-white shadow-md rounded border px-8 pt-6 pb-8 mb-4 w-1/3">
 
             <div class="mb-4">
 
