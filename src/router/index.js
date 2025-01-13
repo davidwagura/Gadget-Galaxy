@@ -10,7 +10,6 @@ import AboutPage from '@/components/AboutPage.vue'
 
 import ContactPage from '@/components/ContactPage.vue'
 
-
 const routes = [
 
     { path: '/', component: NavigationPage },
