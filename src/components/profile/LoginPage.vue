@@ -44,7 +44,7 @@
 
         </form>
 
-        <div v-if="successMessage" class="alert alert-success text-center text-green-400" role="alert">
+        <div v-if="successMessage" class="alert alert-success text-center animate-ping text-green-400" role="alert">
 
             {{ successMessage }}
 
