@@ -15,3 +15,9 @@ export default {
 }
 
 </script>
+
+<style scoped>
+ body {
+font-style: normal; 
+}
+</style>

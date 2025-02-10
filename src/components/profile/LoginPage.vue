@@ -56,17 +56,23 @@ export default {
 
             .then(response => {
 
-                console.log(response)
+                console.log(response.data.message)
 
-                this.successMessage = 'You have been successfully logged in!.';
+                if (response.data.status === true) {
+                    
+                    this.successMessage = response.data.message;
 
-                setTimeout(() => {
+                    setTimeout(() => {
 
-                this.successMessage = '';
+                    this.successMessage = '';
 
-                this.$router.push('/profile');
+                    this.$router.push('/profile');
 
-                }, 3000);                 
+                    }, 3000);                 
+
+                }
+                this.successMessage = response.data.message;
+
             })
 
             .catch(error => {
