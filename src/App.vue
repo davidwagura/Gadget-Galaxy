@@ -1,23 +1,15 @@
 <template>
-  <nav>
-  </nav>
-
-  <router-view></router-view>
+  <NavigationPageVue>
+  </NavigationPageVue>
 
 </template>
 
-<script>
-
-export default {
-
-  name: 'App'
-  
-}
-
+<script setup>
+  import NavigationPageVue from "./components/nav page/NavigationPage.vue";
 </script>
 
 <style scoped>
- body {
-font-style: normal; 
-}
+  body {
+    font-style: normal; 
+  }
 </style>
