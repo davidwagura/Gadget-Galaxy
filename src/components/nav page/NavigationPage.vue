@@ -76,12 +76,12 @@
 
     </div>
 
-    <div>
+    <div class="mt-4">
         <router-view></router-view>
     </div>
 
 
-    <div class="border bg-red-800	 text-white  flex-col flex">
+    <div class="border bg-red-800 text-white flex-col flex">
 
         <footer class="grid">
 

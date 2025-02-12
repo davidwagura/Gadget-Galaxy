@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-16 text-white">
+    <div class="text-white">
 
 <div class="rounded-lg p-8 text-left m-8 bg-cover bg-center" id="phone">
 
