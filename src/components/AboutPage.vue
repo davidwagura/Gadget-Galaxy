@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gradient-to-b from-purple-900 to-indigo-900 py-16">
+    <div class="bg-gray-200 py-16">
       <div class="max-w-4xl mx-auto px-8 py-12 bg-white rounded-lg shadow-lg">
         <h1 class="text-4xl font-bold mb-8 text-center text-gray-800">About Us</h1>
         <p class="text-lg text-gray-700 mb-6">Welcome to our electronics shop! We are passionate about providing the latest and greatest electronic gadgets to our customers.</p>

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-gradient-to-b from-purple-900 to-indigo-900 py-16">
+    <div class="bg-gray-200 py-16">
 
       <div class="max-w-6xl mx-auto px-4 md:px-8">
 
