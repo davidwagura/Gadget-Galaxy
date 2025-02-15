@@ -10,8 +10,6 @@
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-            <!-- Contact Form -->
-
             <div class="col-span-1 md:col-span-1">
 
               <h2 class="text-2xl font-bold mb-4 text-gray-800">Send Us a Message</h2>
@@ -74,14 +72,8 @@
 
   </template>
   
-  <script>
+  <script setup>
   
-  export default {
-
-    name: 'ContactPage',
-
-  };
-
   </script>
   
   
