@@ -46,8 +46,6 @@
 
             </div>
 
-            <!-- Contact Information -->
-
             <div class="col-span-1 md:col-span-1">
 
               <h2 class="text-2xl font-bold mb-4 text-gray-800">Our Information</h2>
