@@ -80,7 +80,6 @@
         <router-view></router-view>
     </div>
 
-
     <div class="border bg-red-800 text-white flex-col flex">
 
         <footer class="grid">
