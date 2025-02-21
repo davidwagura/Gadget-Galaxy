@@ -7,7 +7,7 @@
 
     <p class="mb-6">Stay connected in style with our sleek and powerful smartphones. From stunning displays to lightning-fast processors, our devices redefine the mobile experience.</p>
 
-    <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/smartphones">Shop Now</a>
+    <a class="primary-blue-btn" href="/smartphones">Shop Now</a>
 
 </div>
 
@@ -23,7 +23,7 @@
 
             <p>Whether you're crunching numbers, designing masterpieces, or diving into immersive gaming worlds, our laptops and computers are your gateway to limitless possibilities.</p>
 
-            <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/laptops-phones">Shop Now</a>
+            <a class="primary-blue-btn" href="/laptops-phones">Shop Now</a>
 
         </div>
 
@@ -35,7 +35,7 @@
 
             <p>Choose from the latest consoles and accessories to elevate your gaming experience and become the ultimate champion of virtual realms.</p>
 
-            <a class="bg-blue-500 border rounded w-32 mt-3 p-4" href="/gaming-console">Shop Now</a>
+            <a class="primary-blue-btn" href="/gaming-console">Shop Now</a>
 
         </div>
 
@@ -56,7 +56,7 @@
 
             <p>Elevate your style and functionality with our range of must-have accessories.</p>
 
-            <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/accessories">Shop Now</a>
+            <a class="primary-blue-btn" href="/accessories">Shop Now</a>
 
         </div>
 
@@ -68,7 +68,7 @@
 
             <p>From wireless earbuds to over-ear headphones, experience every beat and note with unparalleled clarity and comfort.</p>
 
-            <a class="bg-blue-500 border rounded w-1/4 mt-3 p-4" href="/audio-headphones">Shop Now</a>
+            <a class="primary-blue-btn" href="/audio-headphones">Shop Now</a>
 
         </div>
 
@@ -84,7 +84,7 @@
 
     <p class="mb-8"> From compact point-and-shoots to professional-grade DSLRs, our collection offers something for every photographer. Unleash your creativity, preserve memories, and document adventures with our high-quality cameras designed to elevate your photography game.</p>
 
-    <a class="bg-blue-500 border rounded w-1/4  p-4" href="/cameras">Shop Now</a>
+    <a class="primary-blue-btn" href="/cameras">Shop Now</a>
 
 </div>
 
