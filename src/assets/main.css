@@ -1,0 +1,14 @@
+.primary-blue-btn {
+    color: #ffffff;
+    background-color: #32a2e8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: fit-content;
+    margin-top: 1rem;
+    border: solid 1px #ffff;
+
+}
+
+.primary-blue-btn:hover {
+    background-color: #1c8cc0;
+}
